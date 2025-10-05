@@ -1,0 +1,4 @@
+source;share/complementary_filter/local_setup.bash
+source;share/complementary_filter/local_setup.dsv
+source;share/complementary_filter/local_setup.sh
+source;share/complementary_filter/local_setup.zsh
