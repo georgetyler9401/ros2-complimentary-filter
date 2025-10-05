@@ -23,4 +23,7 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
+add_executable(complementary_filter_node src/complementary_filter_node.cpp src/complementary_filter.cpp)
+ament_target_dependencies(complementary_filter_node rclcpp std_msgs sensor_msgs)
+
 ament_package()
