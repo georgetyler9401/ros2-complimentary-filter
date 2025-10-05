@@ -1,0 +1,47 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /root/ros2-complimentary-filter/src/complementary_filter/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/ros2-complimentary-filter/build/complementary_filter
+[ 25%] [32mBuilding CXX object CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.o[0m
+In file included from [01m[K/root/ros2-complimentary-filter/src/complementary_filter/src/complementary_filter.cpp:1[m[K:
+[01m[K/root/ros2-complimentary-filter/src/complementary_filter/include/complementary_filter/complementary_filter.hpp:13:49:[m[K [01;31m[Kerror: [m[K‘[01m[Ko[m[K’ has not been declared
+   13 |     void update(double ax, double az, double gy,[01;31m[Ko[m[K, double dt); // ax, az are accelerometer readings, gy is gyroscope reading, dt is time difference
+      |                                                 [01;31m[K^[m[K
+[01m[K/root/ros2-complimentary-filter/src/complementary_filter/src/complementary_filter.cpp:12:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid complementary_filter::ComplementaryFilter::update(double, double, double, double)[m[K’
+   12 | void [01;31m[KComplementaryFilter[m[K::update(double ax, double az, double gy, double dt) {
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/root/ros2-complimentary-filter/src/complementary_filter/src/complementary_filter.cpp:1[m[K:
+[01m[K/root/ros2-complimentary-filter/src/complementary_filter/include/complementary_filter/complementary_filter.hpp:13:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid complementary_filter::ComplementaryFilter::update(double, double, double, int, double)[m[K’
+   13 |     void [01;36m[Kupdate[m[K(double ax, double az, double gy,o, double dt); // ax, az are accelerometer readings, gy is gyroscope reading, dt is time difference
+      |          [01;36m[K^~~~~~[m[K
+[01m[K/root/ros2-complimentary-filter/src/complementary_filter/include/complementary_filter/complementary_filter.hpp:8:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass complementary_filter::ComplementaryFilter[m[K’ defined here
+    8 | class [01;36m[KComplementaryFilter[m[K
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/ros2-complimentary-filter/src/complementary_filter/src/complementary_filter.cpp:[m[K In member function ‘[01m[Kdouble complementary_filter::ComplementaryFilter::getPitch() const[m[K’:
+[01m[K/root/ros2-complimentary-filter/src/complementary_filter/src/complementary_filter.cpp:24:18:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   24 |     return alpha_
+      |                  [01;31m[K^[m[K
+      |                  [32m[K;[m[K
+   25 | [32m[K}[m[K
+      | [32m[K~[m[K                 
+gmake[2]: *** [CMakeFiles/complementary_filter.dir/build.make:76: CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/complementary_filter.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

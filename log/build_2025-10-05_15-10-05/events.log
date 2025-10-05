@@ -1,0 +1,66 @@
+[0.000000] (-) TimerEvent: {}
+[0.001202] (complementary_filter) JobQueued: {'identifier': 'complementary_filter', 'dependencies': OrderedDict()}
+[0.001305] (complementary_filter) JobStarted: {'identifier': 'complementary_filter'}
+[0.013658] (complementary_filter) JobProgress: {'identifier': 'complementary_filter', 'progress': 'cmake'}
+[0.015794] (complementary_filter) JobProgress: {'identifier': 'complementary_filter', 'progress': 'build'}
+[0.018231] (complementary_filter) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2-complimentary-filter/build/complementary_filter', '--', '-j8', '-l8'], 'cwd': '/root/ros2-complimentary-filter/build/complementary_filter', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('HOSTNAME', '8a9633c2c78c'), ('GIT_ASKPASS', '/root/.vscode-server/bin/19e0f9e681ecb8e5c09d8784acaa601316ca4571/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/19e0f9e681ecb8e5c09d8784acaa601316ca4571/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/root/ros2-complimentary-filter/src/complementary_filter/src'), ('TERM_PROGRAM_VERSION', '1.100.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-aa958ec2-23d0-4afd-a14b-4628f7475f28.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/19e0f9e681ecb8e5c09d8784acaa601316ca4571/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/19e0f9e681ecb8e5c09d8784acaa601316ca4571/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/root/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-fdf8faf9-7435-4848-b238-165a6b94640b.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/root/.vscode-server/bin/19e0f9e681ecb8e5c09d8784acaa601316ca4571/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('DISPLAY', ':11'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/root/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-94a6b447580330f9.txt'), ('LANG', 'C.UTF-8'), ('PYTHONSTARTUP', '/root/.vscode-server/data/User/workspaceStorage/a6433ea4f284635f652ae827fb2f427a/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-a549ba3156.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-fdf8faf9-7435-4848-b238-165a6b94640b.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X11'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/ros2-complimentary-filter/build/complementary_filter'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.058863] (complementary_filter) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098651] (-) TimerEvent: {}
+[0.199853] (-) TimerEvent: {}
+[0.227019] (complementary_filter) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.267598] (complementary_filter) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.271182] (complementary_filter) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.280372] (complementary_filter) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.293463] (complementary_filter) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.300983] (-) TimerEvent: {}
+[0.310680] (complementary_filter) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.361036] (complementary_filter) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.363407] (complementary_filter) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.401714] (-) TimerEvent: {}
+[0.502706] (-) TimerEvent: {}
+[0.509945] (complementary_filter) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.595987] (complementary_filter) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.603749] (-) TimerEvent: {}
+[0.656571] (complementary_filter) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.704773] (-) TimerEvent: {}
+[0.745154] (complementary_filter) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.745588] (complementary_filter) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /root/ros2-complimentary-filter/src/complementary_filter/include\n'}
+[0.745720] (complementary_filter) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.746198] (complementary_filter) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.747125] (complementary_filter) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.747258] (complementary_filter) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.747534] (complementary_filter) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.748394] (complementary_filter) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.777075] (complementary_filter) StdoutLine: {'line': b'-- Generating done\n'}
+[0.788224] (complementary_filter) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2-complimentary-filter/build/complementary_filter\n'}
+[0.805699] (-) TimerEvent: {}
+[0.834823] (complementary_filter) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.o\x1b[0m\n'}
+[0.906641] (-) TimerEvent: {}
+[1.007773] (-) TimerEvent: {}
+[1.010276] (complementary_filter) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/ros2-complimentary-filter/src/complementary_filter/src/complementary_filter.cpp:1\x1b[m\x1b[K:\n'}
+[1.010666] (complementary_filter) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2-complimentary-filter/src/complementary_filter/include/complementary_filter/complementary_filter.hpp:13:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ko\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.010930] (complementary_filter) StderrLine: {'line': b'   13 |     void update(double ax, double az, double gy,\x1b[01;31m\x1b[Ko\x1b[m\x1b[K, double dt); // ax, az are accelerometer readings, gy is gyroscope reading, dt is time difference\n'}
+[1.011238] (complementary_filter) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.011802] (complementary_filter) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2-complimentary-filter/src/complementary_filter/src/complementary_filter.cpp:12:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kvoid complementary_filter::ComplementaryFilter::update(double, double, double, double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.012124] (complementary_filter) StderrLine: {'line': b'   12 | void \x1b[01;31m\x1b[KComplementaryFilter\x1b[m\x1b[K::update(double ax, double az, double gy, double dt) {\n'}
+[1.012280] (complementary_filter) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.012897] (complementary_filter) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/ros2-complimentary-filter/src/complementary_filter/src/complementary_filter.cpp:1\x1b[m\x1b[K:\n'}
+[1.013138] (complementary_filter) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2-complimentary-filter/src/complementary_filter/include/complementary_filter/complementary_filter.hpp:13:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate is: \xe2\x80\x98\x1b[01m\x1b[Kvoid complementary_filter::ComplementaryFilter::update(double, double, double, int, double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.013379] (complementary_filter) StderrLine: {'line': b'   13 |     void \x1b[01;36m\x1b[Kupdate\x1b[m\x1b[K(double ax, double az, double gy,o, double dt); // ax, az are accelerometer readings, gy is gyroscope reading, dt is time difference\n'}
+[1.013561] (complementary_filter) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.013848] (complementary_filter) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2-complimentary-filter/src/complementary_filter/include/complementary_filter/complementary_filter.hpp:8:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass complementary_filter::ComplementaryFilter\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[1.014125] (complementary_filter) StderrLine: {'line': b'    8 | class \x1b[01;36m\x1b[KComplementaryFilter\x1b[m\x1b[K\n'}
+[1.014224] (complementary_filter) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.014591] (complementary_filter) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2-complimentary-filter/src/complementary_filter/src/complementary_filter.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble complementary_filter::ComplementaryFilter::getPitch() const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.014819] (complementary_filter) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2-complimentary-filter/src/complementary_filter/src/complementary_filter.cpp:24:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.014983] (complementary_filter) StderrLine: {'line': b'   24 |     return alpha_\n'}
+[1.015097] (complementary_filter) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.015249] (complementary_filter) StderrLine: {'line': b'      |                  \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.015392] (complementary_filter) StderrLine: {'line': b'   25 | \x1b[32m\x1b[K}\x1b[m\x1b[K\n'}
+[1.015483] (complementary_filter) StderrLine: {'line': b'      | \x1b[32m\x1b[K~\x1b[m\x1b[K                 \n'}
+[1.078183] (complementary_filter) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/complementary_filter.dir/build.make:76: CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.o] Error 1\n'}
+[1.078469] (complementary_filter) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/complementary_filter.dir/all] Error 2\n'}
+[1.078905] (complementary_filter) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[1.081687] (complementary_filter) CommandEnded: {'returncode': 2}
+[1.094822] (complementary_filter) JobEnded: {'identifier': 'complementary_filter', 'rc': 2}
+[1.106454] (-) EventReactorShutdown: {}

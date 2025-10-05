@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/complementary_filter_node.dir/src/complementary_filter.cpp.o"
-  "CMakeFiles/complementary_filter_node.dir/src/complementary_filter.cpp.o.d"
   "CMakeFiles/complementary_filter_node.dir/src/complementary_filter_node.cpp.o"
   "CMakeFiles/complementary_filter_node.dir/src/complementary_filter_node.cpp.o.d"
   "complementary_filter_node"
